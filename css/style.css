@@ -660,8 +660,6 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
-    /* empeche retour à la ligne sur titre de page */
-    white-space:nowrap;
 }
 
 .hero-bloc-text-sub {
@@ -679,7 +677,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    /* taille paragraphe augmenté */
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -709,10 +708,13 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    /* font weigt augmenté */
+    font-weight: 600;
 }
 
 h3 {
-    font-size: 15px;
+    /* taille h3 augmenté */
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
