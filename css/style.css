@@ -660,6 +660,8 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    /* empeche retour à la ligne sur titre de page */
+    white-space:nowrap;
 }
 
 .hero-bloc-text-sub {
