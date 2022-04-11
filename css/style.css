@@ -11,11 +11,15 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    /* liens de menu plus visibles*/
+    font-size: 20px;
+    font-weight:bolder!important;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: #CD4B0E !important;
 }
 
 #page-loading-blocs-notifaction {
