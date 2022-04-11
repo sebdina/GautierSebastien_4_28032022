@@ -6,8 +6,6 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-/* lignes unitilisées enlevées */
-
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -32,6 +30,24 @@ nav,
 section,
 summary {
     display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
 }
 
 a {
@@ -1844,6 +1860,8 @@ blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
     font-size: 17.5px;
+    /*pour meilleur contraste couleur*/
+    color: #575757;
     border-left: 5px solid #eee
 }
 
