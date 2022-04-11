@@ -6,6 +6,8 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+/* lignes unitilisées enlevées */
+
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -30,24 +32,6 @@ nav,
 section,
 summary {
     display: block
-}
-
-audio,
-canvas,
-progress,
-video {
-    display: inline-block;
-    vertical-align: baseline
-}
-
-audio:not([controls]) {
-    display: none;
-    height: 0
-}
-
-[hidden],
-template {
-    display: none
 }
 
 a {
