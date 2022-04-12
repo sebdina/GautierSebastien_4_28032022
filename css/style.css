@@ -11,9 +11,10 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-    /* liens de menu plus visibles*/
+    /* liens plus visibles*/
     font-size: 20px;
     font-weight:bolder!important;
+    line-height: 2;
 }
 
 a:hover {
