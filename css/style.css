@@ -513,6 +513,7 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
+    border: 2px solid; /*grossir bordure champ formulaire*/
     box-shadow: none;
 }
 
